@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Hero.css";
 
 function Hero() {
@@ -10,9 +11,9 @@ function Hero() {
           Un espacio para reconectar con la naturaleza.
         </p>
 
-        <a href="#" className="btn">
+        <Link to="../../pages/Reservas.jsx" className="btn">
           Reserva un taller
-        </a>
+        </Link>
       </div>
 
       <div className="hero-image"></div>

@@ -15,14 +15,12 @@
   --spacing-lg: clamp(3rem, 5vw, 6rem);
 }
 
-/* RESET */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* BODY */
 body {
   font-family: 'Outfit', sans-serif;
   background-color: var(--bg-color);
@@ -35,13 +33,11 @@ body {
   min-height: 100vh;
 }
 
-/* PÁRRAFOS */
 p {
   margin-bottom: var(--spacing-md);
   color: #4a5446;
 }
 
-/* FOOTER */
 Footer {
   text-align: center;
   padding: var(--spacing-md);
@@ -80,4 +76,19 @@ Footer {
 
 .hero-image {
   min-height: 300px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: 600;
 }

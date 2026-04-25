@@ -1,0 +1,20 @@
+.filosofia-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--spacing-lg);
+}
+
+.filosofia-content {
+  max-width: 700px;
+  text-align: center;
+}
+
+.filosofia-content h1 {
+  font-size: var(--font-h1);
+  margin-bottom: var(--spacing-md);
+}
+
+.filosofia-content p {
+  margin-bottom: var(--spacing-md);
+}
