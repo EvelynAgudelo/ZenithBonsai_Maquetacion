@@ -1,0 +1,6 @@
+.hero-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr));
+    gap: var(--spacing-lg);
+    align-items: center;
+}
