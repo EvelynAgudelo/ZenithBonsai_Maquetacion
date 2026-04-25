@@ -42,10 +42,42 @@ p {
 }
 
 /* FOOTER */
-footer {
+Footer {
   text-align: center;
   padding: var(--spacing-md);
   font-size: 0.9rem;
   border-top: 1px solid var(--border-color);
   color: #888;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-md);
+  background-color: var(--nav-bg);
+}
+
+.nav-links {
+  display: flex;
+  gap: var(--spacing-md);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+.hero-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-lg);
+  align-items: center;
+  padding: var(--spacing-lg);
+}
+
+.hero-content h1 {
+  font-size: var(--font-h1);
+}
+
+.hero-image {
+  min-height: 300px;
 }

@@ -1,6 +1,14 @@
-.hero-section{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr));
-    gap: var(--spacing-lg);
-    align-items: center;
+.hero-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr));
+  gap: var(--spacing-lg);
+  align-items: center;
+}
+.hero-content h1 {
+  font-size: var(--font-h1);
+  margin-bottom: var(--spacing-md);
+}
+
+.hero-image {
+  min-height: 300px;
 }
